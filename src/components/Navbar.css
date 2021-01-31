@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background: rgb(181, 194, 176);
+    overflow: hidden;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: sticky;
+    font-size: 1.2rem;
+    height: 80px;
+  }
+  
+  .item-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-links{
+    text-decoration: none;
+    padding: 10px;
+  }
+  .navbar-logo{
+    justify-self: start;
+    font-size: large;
+    margin-left: 20px;
+    font-weight: 800;
+    max-width: 11vw;
+    color: green;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
